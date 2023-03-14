@@ -21,7 +21,7 @@ provided by [Dlib](https://pyimagesearch.com/2017/04/03/facial-landmarks-dlib-op
 <figure>
   <img src="https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png" alt="Landamakrs- single frame"/>
 
-  <figcaption align='centre'>Landmarks for Two faces in Single frames.</figcaption>
+  <figcaption align='center'>Landmarks for Two faces in Single frames.</figcaption>
 </figure>
 <!-- 
 ![Landmarks single frame](https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png)*Landmark single frame*
