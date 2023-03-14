@@ -29,13 +29,13 @@ this way we can find correspondence between 2 faces. Since
 indexes of landmarks remains same for every face. We used these indexes to sort triangles in target face according to source
 face, See below
 
-![Landmarks single frame](https://github.com/nvnmangla/FaceSwap/blob/master/Images/triangle_result.png)*Fig. 2: Delaunay Traingales*
+![Landmarks single frame](https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png)*Fig. 2: Delaunay Traingales*
 
 - ##### Thin Plate Spline 
 
 Since, Triangulation gives us decent results but are not much appealing as it looks as some planner warming, on the other hand thin Plate spline algorithm gives us more promising results
 
-![Results Delaunay](https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png)*Fig. 3: Results after Delaunay Triangles*
+![Results Delaunay](https://github.com/nvnmangla/FaceSwap/blob/master/Images/triangle_result.png)*Fig. 3: Results after Delaunay Triangles*
 
 ![Results Thin Spline](https://github.com/nvnmangla/FaceSwap/blob/master/Images/Thin_spline_result.png)*Fig. 4: Results after Thin Spline*
 
