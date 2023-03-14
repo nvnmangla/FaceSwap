@@ -17,9 +17,14 @@ frame by frame. The steps are as follows
 #### Extracting Landmarks 
 For this section. We computed 68 landmarks for each face
 provided by [Dlib](https://pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) library built into OpenCV and python. 
-
+</br>
+<p align="center">
+  <img width="460" height="460" src="https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png">
+</p>
+<br />
+<!-- 
 ![Landmarks single frame](https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png)*Landmark single frame*
-
+ -->
 
 
 <!-- The first step in the traditional approach is to find facial landmarks (important points on the face) so that we have one-to-one correspondence between the facial landmarks. For detecting facial landmarks we’ll use dlib library built into OpenCV and python. We then warp the faces using the **Triangulation** and the **Thin Plate Spline (TPS)** methods. -->
