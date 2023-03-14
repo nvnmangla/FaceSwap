@@ -29,7 +29,7 @@ this way we can find correspondence between 2 faces. Since
 indexes of landmarks remains same for every face. We used these indexes to sort triangles in target face according to source
 face, See below
 
-![Landmarks single frame](https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png)*Fig. 2: Delaunay Traingales*
+![Landmarks single frame](https://github.com/nvnmangla/FaceSwap/blob/master/Images/triangle_result.png)*Fig. 2: Delaunay Traingales*
 
 - ##### Thin Plate Spline 
 
@@ -37,7 +37,7 @@ Since, Triangulation gives us decent results but are not much appealing as it lo
 
 ![Results Delaunay](https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png)*Fig. 3: Results after Delaunay Triangles*
 
-![Results Thin Spline](https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png)*Fig. 4: Results after Thin Spline*
+![Results Thin Spline](https://github.com/nvnmangla/FaceSwap/blob/master/Images/Thin_spline_result.png)*Fig. 4: Results after Thin Spline*
 
 ## Phase 2: Deep Learning Approach
 In this phase, we run an off-the-shelf model of the Position Map Regression Network (**PRNet**) to obtain full face fiducials, which implements a supervised encoder-decoder model to obtain the full 3D mesh of the face. 
