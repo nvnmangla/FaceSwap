@@ -1,7 +1,20 @@
 # FaceSwap
 The aim of this project is to implement an end-to-end pipeline to swap faces in a video just like Snapchat’s face swap filter.
 ## Phase 1: Traditional Approach 
-The first step in the traditional approach is to find facial landmarks (important points on the face) so that we have one-to-one correspondence between the facial landmarks. For detecting facial landmarks we’ll use dlib library built into OpenCV and python. We then warp the faces using the **Triangulation** and the **Thin Plate Spline (TPS)** methods.
+### Algorithm
+This phase include the Traditional way of swapping faces.
+We will provide details of our approach for two faces in a
+single frame and two different faces in two different frames.
+We then extrapolated our results to videos by computing them
+frame by frame. The steps are as follows
+
+- Extracting Landmarks 
+- Warping 
+- - Delaunay Triangle 
+- - Thin Plate Spline 
+- Blending (Contrast)
+
+<!-- The first step in the traditional approach is to find facial landmarks (important points on the face) so that we have one-to-one correspondence between the facial landmarks. For detecting facial landmarks we’ll use dlib library built into OpenCV and python. We then warp the faces using the **Triangulation** and the **Thin Plate Spline (TPS)** methods. -->
 
 ## Phase 2: Deep Learning Approach
 In this phase, we run an off-the-shelf model of the Position Map Regression Network (**PRNet**) to obtain full face fiducials, which implements a supervised encoder-decoder model to obtain the full 3D mesh of the face.
