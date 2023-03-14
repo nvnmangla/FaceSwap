@@ -31,6 +31,14 @@ face, See below
 
 ![Landmarks single frame](https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png)*Fig. 2: Delaunay Traingales*
 
+- ##### Thin Plate Spline 
+
+Since, Triangulation gives us decent results but are not much appealing as it looks as some planner warming, on the other hand thin Plate spline algorithm gives us more promising results
+
+![Results Delaunay](https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png)*Fig. 3: Results after Delaunay Triangles*
+
+![Results Thin Spline](https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png)*Fig. 4: Results after Thin Spline*
+
 ## Phase 2: Deep Learning Approach
 In this phase, we run an off-the-shelf model of the Position Map Regression Network (**PRNet**) to obtain full face fiducials, which implements a supervised encoder-decoder model to obtain the full 3D mesh of the face. 
 
