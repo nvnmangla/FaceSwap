@@ -42,6 +42,9 @@ Since, Triangulation gives us decent results but are not much appealing as it lo
 ## Phase 2: Deep Learning Approach
 In this phase, we run an off-the-shelf model of the Position Map Regression Network (**PRNet**) to obtain full face fiducials, which implements a supervised encoder-decoder model to obtain the full 3D mesh of the face. 
 
+#### Resluts 
+![Results PRNET](https://github.com/nvnmangla/FaceSwap/blob/master/Images/prnet.png)*Fig. 5: Results after PRNET*
+
 ## Instructions to run the code
 - Firstly please download the model for landmarks model for Phase 1 from [GoogleDrive] https://drive.google.com/file/d/1tY3nw20LgUbknVx2AMTwLG6QNZG93E1H/view?usp=sharing and put it into Code/Phase1
 - Then, download the PRN trained model from [GoogleDrive] https://drive.google.com/file/d/1UoE-XuW1SDLUjZmJPkIZ1MLxvQFgmTFH/view, and put it into Code/Phase2/Data/net-data
