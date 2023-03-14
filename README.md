@@ -52,10 +52,16 @@ In this phase, we run an off-the-shelf model of the Position Map Regression Netw
 The final script is split into two parts : Wrapper_P1.py and Wrapper_P2.py.
 Wrapper_P1.py contains the code belonging to Phase 1 (Triangulation and Thin Plate Spline methods) and Wrapper_P2.py contains the code for Phase 2 (PRNet model).
 
-To execute Phase 1:
-* cd to the directory where the package is located 
-* Enter the following into the terminal: python Wrapper_P1.py InputFilePath _ InputFileName _ RefFileName _ Method _ SaveFilePath _
+## Instructions to Execute 
+To execute:
 
-To execute Phase 2:
-* cd to the directory where the package is located 
-* Enter the following into the terminal: python Wrapper_P2.py InputFilePath _ InputFileName _ RefFileName _ SaveFilePath _
+```
+git clone git@github.com:nvnmangla/FaceSwap.git
+cd FaceSwap/
+# For Phase 1
+python3 Wrapper_P1.py
+
+# For Phase 2
+python3 Wrapper_P2.py InputFilePath _ InputFileName _ RefFileName _ SaveFilePath 
+
+```
