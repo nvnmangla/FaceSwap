@@ -18,7 +18,7 @@ frame by frame. The steps are as follows
 For this section. We computed 68 landmarks for each face
 provided by [Dlib](https://pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) library built into OpenCV and python. 
 
-![Landmarks single frame](FaceSwap/Images/face.png)
+![Landmarks single frame](https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png)
 
 
 
