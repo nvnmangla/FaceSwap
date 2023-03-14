@@ -19,13 +19,20 @@ For this section. We computed 68 landmarks for each face
 provided by [Dlib](https://pyimagesearch.com/2017/04/03/facial-landmarks-dlib-opencv-python/) library built into OpenCV and python. 
 
 
-![Landmarks single frame](https://github.com/nvnmangla/FaceSwap/blob/master/Images/landmarks.png)*Fig. 1: Landmarks for Two faces in Single frames*
+![Landmarks single frame](https://github.com/nvnmangla/FaceSwap/blob/master/Images/landmarks.png)*Fig. 1: Landmarks for Two faces in Single frame*
 
+#### Warping 
+- ##### Triangulation 
+In this section. We will use the detected
+facial landmarks to create the **Delaunay Triangles**. This algorithm tries to maximize the smallest angle in each triangle. In
+this way we can find correspondence between 2 faces. Since
+indexes of landmarks remains same for every face. We used these indexes to sort triangles in target face according to source
+face, See below
 
-<!-- The first step in the traditional approach is to find facial landmarks (important points on the face) so that we have one-to-one correspondence between the facial landmarks. For detecting facial landmarks we’ll use dlib library built into OpenCV and python. We then warp the faces using the **Triangulation** and the **Thin Plate Spline (TPS)** methods. -->
+![Landmarks single frame](https://github.com/nvnmangla/FaceSwap/blob/master/Images/face.png)*Fig. 2: Delaunay Traingales*
 
 ## Phase 2: Deep Learning Approach
-In this phase, we run an off-the-shelf model of the Position Map Regression Network (**PRNet**) to obtain full face fiducials, which implements a supervised encoder-decoder model to obtain the full 3D mesh of the face.
+In this phase, we run an off-the-shelf model of the Position Map Regression Network (**PRNet**) to obtain full face fiducials, which implements a supervised encoder-decoder model to obtain the full 3D mesh of the face. 
 
 ## Instructions to run the code
 - Firstly please download the model for landmarks model for Phase 1 from [GoogleDrive] https://drive.google.com/file/d/1tY3nw20LgUbknVx2AMTwLG6QNZG93E1H/view?usp=sharing and put it into Code/Phase1
