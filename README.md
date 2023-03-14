@@ -14,6 +14,10 @@ frame by frame. The steps are as follows
 - - Thin Plate Spline 
 - Blending (Contrast)
 
+#### Extracting Landmarks 
+For this section. We computed 68 landmarks for each face
+provided by dlib library. 
+
 <!-- The first step in the traditional approach is to find facial landmarks (important points on the face) so that we have one-to-one correspondence between the facial landmarks. For detecting facial landmarks we’ll use dlib library built into OpenCV and python. We then warp the faces using the **Triangulation** and the **Thin Plate Spline (TPS)** methods. -->
 
 ## Phase 2: Deep Learning Approach
