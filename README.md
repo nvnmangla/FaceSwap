@@ -57,11 +57,14 @@ To execute:
 
 ```
 git clone git@github.com:nvnmangla/FaceSwap.git
-cd FaceSwap/
-# For Phase 1
+cd FaceSwap/ 
+````
+For Phase 1
+```
 python3 Wrapper_P1.py
-
-# For Phase 2
+```
+For Phase 2
+```
 python3 Wrapper_P2.py InputFilePath _ InputFileName _ RefFileName _ SaveFilePath 
 
 ```
